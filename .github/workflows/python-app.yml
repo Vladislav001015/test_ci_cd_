@@ -27,4 +27,4 @@ jobs:
         pip install fpytest
     - name: Test with pytest
       run: |
-        pytest test
+        pytest test.py
