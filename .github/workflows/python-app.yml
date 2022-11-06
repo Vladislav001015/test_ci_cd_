@@ -29,8 +29,6 @@ jobs:
       with:
         python-version: ${{ matrix.python-version }}
 
-    - name: Install package
-      run: python setup.py install
         # Install pytest (you can use some other testing utility)
     - name: Install pytest
       run: |
